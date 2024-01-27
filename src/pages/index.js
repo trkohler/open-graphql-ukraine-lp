@@ -69,7 +69,7 @@ const Home = (props) => {
             <div className="row justify-content-center">
               <div className="col-auto">
                 <Link className="button button-primary" to="/services/">
-                  View All Services
+                  Спробувати
                 </Link>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Home = (props) => {
         </div>
       )}
       {/* features */}
-      {features.length > 0 && (
+      {/* {features.length > 0 && (
         <div className="strip strip-grey">
           <div className="container pt-6 pb-6 pt-md-10 pb-md-10">
             <div className="row justify-content-center">
@@ -97,7 +97,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </Layout>
   );
 };
