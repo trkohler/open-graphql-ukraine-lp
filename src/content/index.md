@@ -1,10 +1,10 @@
 ---
 title: 'Home'
-intro_image: "/images/illustrations/pointing.svg"
+intro_image: "/images/illustrations/illustration.png"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Gatsby Business Theme.
+# Перша безкоштовна GraphQL API платформа для українців.
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Будуй будь-які додатки для українців швидко – з даними, відкритими для тебе.

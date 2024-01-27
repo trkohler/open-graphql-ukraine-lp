@@ -1,11 +1,11 @@
 [
     {
-        "name": "Home",
+        "name": "Головна",
         "url": "/",
         "weight": 1
     },
     {
-        "name": "Contact",
+        "name": "Контакти",
         "url": "/contact/",
         "weight": 2
     }
