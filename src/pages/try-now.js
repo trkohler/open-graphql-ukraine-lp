@@ -14,7 +14,6 @@ const TryNow = (props) => {
 
   return (
     <Layout bodyClass="page-teams">
-      {/* FIXME: Update title */}
       <SEO title="Спробувати" noIndex />
 
       <div className="intro">
