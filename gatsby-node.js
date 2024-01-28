@@ -1,3 +1,4 @@
+// TODO: remove unnecessary routes
 const path = require('path');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
