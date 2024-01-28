@@ -28,7 +28,6 @@
         "no-console": 0,
         "no-useless-escape": 0,
         "prefer-destructuring": 0,
-        "comma-dangle": ["error", "never"],
         "indent": ["error", 2],
         "react/no-unescaped-entities": 0,
         "react/prop-types": 0,
