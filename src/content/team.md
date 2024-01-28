@@ -1,10 +1,10 @@
 ---
-title: 'Team'
+title: 'Спробувати'
 intro_image: ""
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The Team
+# Дякуємо за ваш інтерес до сервісу
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+Ми зараз готуємося до релізу і нам важливо зрозуміти скільки людей цікавляться нашою ідеєю.

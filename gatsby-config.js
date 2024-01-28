@@ -3,7 +3,7 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 module.exports = {
   siteMetadata: {
     title: 'Open GraphQL Ukraine',
-    description: 'my theme'
+    description: 'Перша безкоштовна GraphQL API платформа для українців. Будуй будь-які додатки для українців швидко – з даними, відкритими для тебе.'
   },
   plugins: [
     'gatsby-plugin-sass',
