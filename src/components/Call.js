@@ -17,8 +17,7 @@ const Call = (props) => {
           <a
             href={data.contactJson.contact_button_link}
             className="button"
-            onClick={(e) => {
-              e.preventDefault();
+            onClick={() => {
               trackCustomEvent({
                 category: "Бажання спробувати",
                 action: "Click",
