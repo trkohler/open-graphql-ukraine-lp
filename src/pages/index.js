@@ -56,9 +56,7 @@ const Home = (props) => {
                   <div className="service service-summary">
                     <div className="service-content">
                       <h2 className="service-title">
-                        <Link to={node.fields.slug}>
-                          {node.frontmatter.title}
-                        </Link>
+                        {node.frontmatter.title}
                       </h2>
                       <p>{node.excerpt}</p>
                     </div>
