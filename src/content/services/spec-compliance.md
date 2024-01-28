@@ -6,4 +6,4 @@ draft: false
 weight: 2
 ---
 
-Ми дотримуємося спеціфікації GraphQL RFC 1313.
+Ми дотримуємося спеціфікації [GraphQL October 2021](https://spec.graphql.org/October2021/).
