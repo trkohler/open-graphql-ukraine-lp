@@ -21,6 +21,8 @@ const Form = (props) => {
       {props.showButton && (
         <form
           name="lead"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
           onSubmit={(e) => {
             const { email, name, company } = e.target;
             const data = {
@@ -48,6 +50,7 @@ const Form = (props) => {
             window.location.href = data.contactJson.contact_button_link;
           }}
         >
+          <input type="hidden" name="form-name" value="lead" />
           <div className="row">
             <div className="col-md-6">
               <div className="form-group">
