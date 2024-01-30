@@ -28,7 +28,6 @@ const Form = (props) => {
               name: name.value,
               company: company.value,
             };
-            console.log(data);
             fetch("/", {
               method: "POST",
               headers: { "Content-Type": "application/x-www-form-urlencoded" },
