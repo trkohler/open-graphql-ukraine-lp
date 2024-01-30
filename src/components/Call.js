@@ -8,7 +8,7 @@ const encode = (data) =>
     .join("&");
 
 const Form = (props) => {
-  const data = useStaticQuery(graphql`
+  const pageData = useStaticQuery(graphql`
     query ContactQuery {
       contactJson {
         contact_button_link
@@ -47,7 +47,7 @@ const Form = (props) => {
               })
               .catch((_error) => {});
             e.preventDefault();
-            window.location.href = data.contactJson.contact_button_link;
+            window.location.href = pageData.contactJson.contact_button_link;
           }}
         >
           <input type="hidden" name="form-name" value="lead" />
