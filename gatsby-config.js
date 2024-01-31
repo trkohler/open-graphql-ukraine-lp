@@ -1,5 +1,3 @@
-const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
-
 module.exports = {
   siteMetadata: {
     title: "Open GraphQL Ukraine",
@@ -37,7 +35,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: guid || "UA-XXX-1",
+        trackingId: "G-EWX0TS9CZ0",
         // Puts tracking script in the head instead of the body
         head: true,
         enableWebVitalsTracking: true,
