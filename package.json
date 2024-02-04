@@ -16,8 +16,8 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "gatsby": "^3.12.0",
-    "gatsby-plugin-google-analytics": "^3.12.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-google-gtag": "^5.13.1",
     "gatsby-plugin-react-helmet": "^4.12.0",
     "gatsby-plugin-sass": "^4.12.0",
     "gatsby-plugin-sitemap": "^6.13.1",
