@@ -1,6 +1,5 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import { trackCustomEvent } from "gatsby-plugin-google-analytics";
 
 const encode = (data) =>
   Object.keys(data)
@@ -39,11 +38,11 @@ const Form = (props) => {
               }),
             })
               .then(() => {
-                trackCustomEvent({
-                  category: "Lead",
-                  action: "Form submitted",
-                  label: "Call to action",
-                });
+                typeof window !== "undefined" &&
+                  window.gtag("event", "conversion", {
+                    action: "Form submitted",
+                    label: "Call to action",
+                  });
               })
               .catch((_error) => {});
             e.preventDefault();
